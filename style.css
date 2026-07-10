@@ -1,0 +1,370 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "Inter", sans-serif;
+}
+.button{
+    width: 188px;
+    height: 48px;
+    background-color: #1D4ED8;
+    padding: 12px 12px;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;    ;
+}
+/*Header css strart*/
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.menu-list{
+    text-decoration: none;
+    color: #575757;
+    font-family: inter;
+}
+/*Header css end*/
+
+/*Hero css strart*/
+#bg{
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+.body{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.heading{
+    width: 959px;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight:bold;
+    align-items: center;
+    text-align: center;
+}
+.pragh{
+    color: #ffffff;
+    font-size: 16px;
+    width: 820px;
+    align-items: center;
+    text-align: center;
+}
+#margin-bottom{
+    margin-bottom: 100px;
+}
+/*Hero css end*/
+
+/*Meet the Speakers css strart*/
+.section-heading{
+    color: #000102;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    padding: 20px;
+}
+.card-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.card-speaker{
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    text-align: start;
+    padding: 30px;
+    gap: 15px;
+}
+.title{
+    color: #2563EB;
+    text-align: start;
+    text-decoration: none;
+    font-weight: 12px;
+}
+.name{
+    color: #0D1B2A;
+    text-align: start;
+    font-weight: 20px;
+}
+.title-details{
+    font-weight: 14px;
+    color: #575757;
+    text-align: start;
+}
+/*Meet the Speakers css end*/
+/* Secure Your Spot start */
+.secure-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.price-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.price-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.price-card{
+    max-width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pakage-name{
+    color: #888888;
+    font-weight: ;
+    text-transform: capitalize;
+    font-style: uper;
+}
+.price-name{
+    color: #888888;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.price-numer{
+    color: #0D1B2A;
+    font-size: 44px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.price-details{
+    color: #888888;
+    font-size: 13px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+.dash{
+    width: 100%;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 20px 0px;
+}
+.price-list{
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+}
+.price-list li {
+    margin-bottom: 16px;
+    align-items: center;
+    gap: 10px;
+}
+.price-list li::marker{
+color: blue
+}
+
+#backgroud-color{
+    background-color: #0D1B2A;
+}
+#pri-name{
+    color: #93C5FD;
+}
+#pri-num{
+    color: #ffffff;
+}
+#pri-detail{
+    color: #ffffff50;
+}
+#pri-list{
+    color: #ffffff80;
+}
+#middle-button{
+    width: 100%;
+    background-color: #1D4ED8;
+
+}
+.card-fisrt{
+    width: 100%;
+    background-color: #ffffff;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+}
+.card-last{
+    width: 100%;
+    background-color: #ffffff;
+    color: #000102;
+    border: 1px solid #000102;
+}
+/* Secure Your Spot ent */
+/* Join css start*/
+#join-background{
+    background-color: #93C5FD;
+}
+.join-contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    gap: 30px;
+}
+.join-heading{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    padding-bottom: 20px;
+}
+.join-pragh{
+    color: #00000080;
+    text-align: center;
+    width: 620px;
+    padding-bottom: 40px;
+}
+.join-button{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+} 
+#fb{
+    background-color: transparent;
+    color: #000000;
+    font-size: 36;
+    font-weight: bold;
+    border: 1px solid #1D4ED8;
+}
+/* Join css end*/
+/* footer css start  */
+.footer-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.box-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+}
+.fisrt-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo-footer{
+    width: 134px;
+    height: 44px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.ul li{
+    color: #000000;
+}
+.links-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+    gap: 5px;
+    color: #000000;
+}
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.follow-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 5px;
+}
+.follow-links{
+    text-decoration: none;
+    color: #000000;
+}
+#backgrounf-footer-last{
+    background-color: #0D1B2A;
+    padding: 20px;
+}
+.footer-text{
+    color: #ffffff40;
+    font-size: 16px;
+}
+.privacy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.privacy-text{
+    color: #ffffff40;
+    font-size: 16px;
+}
+.follow-links-f{
+    text-decoration: none;
+    color: #ffffff40;
+}
+/* footer css end  */
